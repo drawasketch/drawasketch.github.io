@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About the Developer – Draw A Sketch</title>
+  <meta name="description" content="Meet Shelly, the web developer and SEO expert behind Draw A Sketch. Learn about the mission to provide a free, accessible online sketchpad."/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://drawasketch.github.io/about"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ── Reset & Variables ───────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --pink:    #FF6B9D;
+      --purple:  #A855F7;
+      --cyan:    #06B6D4;
+      --yellow:  #FFE066;
+      --white:   #FFFFFF;
+      --off-white: #FFF9F0;
+      --text-dark: #1A1025;
+      --text-mid:  #4A3F5C;
+      --text-light:#7B6B8C;
+      --border:    rgba(168,85,247,0.15);
+      --grad-hero: linear-gradient(135deg,#FFF0FB 0%,#F0E8FF 40%,#E8F8FF 80%,#FFFBF0 100%);
+      --grad-accent: linear-gradient(135deg,#FF6B9D,#A855F7,#06B6D4);
+      --radius-md: 18px;
+      --radius-lg: 28px;
+      --shadow-lg: 0 20px 60px rgba(168,85,247,0.22);
+    }
+
+    body { font-family: 'Nunito', sans-serif; background: var(--off-white); color: var(--text-dark); line-height: 1.7; }
+    #site-header { height: 68px; background: rgba(255,249,240,0.88); border-bottom: 1.5px solid var(--border); }
+    
+    main { padding: 80px clamp(1rem,5vw,3rem); background: var(--grad-hero); min-height: calc(100vh - 68px); display: flex; align-items: center; }
+    .about-container { max-width: 960px; margin: 0 auto; background: var(--white); padding: clamp(2rem,6vw,4rem); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); border: 1.5px solid rgba(168,85,247,0.18); display: grid; grid-template-columns: 1fr 1.5fr; gap: 3rem; align-items: center; }
+    
+    @media(max-width: 768px) {
+      .about-container { grid-template-columns: 1fr; gap: 2rem; padding: 2rem 1.5rem; }
+      .avatar-side { text-align: center; }
+    }
+
+    /* ── Visual Side ────────────────────────────────────────── */
+    .avatar-wrapper { width: 180px; height: 180px; border-radius: var(--radius-md); background: var(--grad-accent); margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 5rem; box-shadow: 0 12px 32px rgba(168,85,247,0.25); border: 3px solid white; }
+    .profile-badge { display: inline-block; background: rgba(168,85,247,.1); color: var(--purple); border: 1.5px solid rgba(168,85,247,.25); border-radius: 50px; padding: .3rem .9rem; font-weight: 800; font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; }
+
+    /* ── Content Side ───────────────────────────────────────── */
+    .section-tag { display: inline-flex; background: rgba(255,107,157,.1); color: var(--pink); border: 1.5px solid rgba(255,107,157,.25); border-radius: 50px; padding: .3rem .9rem; font-weight: 800; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 1rem; }
+    h1 { font-weight: 900; font-size: clamp(2rem,4vw,2.8rem); line-height: 1.15; margin-bottom: 1rem; }
+    .gradient-text { background: var(--grad-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    p { color: var(--text-mid); margin-bottom: 1.25rem; font-size: 1.05rem; }
+    
+    .skills-flex { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.5rem; }
+    .skill-chip { padding: .4rem .9rem; border-radius: 50px; font-size: .8rem; font-weight: 800; background: var(--off-white); border: 1.5px solid var(--border); color: var(--text-mid); }
+  </style>
+</head>
+<body>
+
+<!-- Header injected by header.js -->
+
+<main id="main-content">
+  <div class="about-container">
+    <div class="avatar-side">
+      <div class="avatar-wrapper">👩‍💻</div>
+      <div style="text-align: center;">
+        <span class="profile-badge">Founder &amp; Dev</span>
+      </div>
+    </div>
+    
+    <div class="content-side">
+      <div class="section-tag">Hey There!</div>
+      <h1>I'm <span class="gradient-text">Shelly</span></h1>
+      <p>I am a passionate <strong>web developer and SEO expert</strong>. I built <strong>Draw A Sketch</strong> to serve as a fast, clean, and completely accessible digital canvas that anyone can use globally without facing paywalls, confusing software installation pathways, or tedious log-in forms[cite: 1].</p>
+      <p>Combining clean client-side coding mechanics with strategic optimization techniques, my goal was to make a canvas application that feels high-performance and lightweight on desktops, tablets, and phones alike[cite: 1]. Whether you are a master illustrator warming up your hand or a beginner jumping into your first animal sketching session, I hope this app brings out your inner creativity[cite: 1]!</p>
+      
+      <div class="skills-flex">
+        <span class="skill-chip">💻 UI/UX Development</span>
+        <span class="skill-chip">🚀 Technical SEO</span>
+        <span class="skill-chip">🎨 Frontend Design</span>
+        <span class="skill-chip">⚡ Speed Optimization</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Footer injected by footer.js -->
+
+<script src="header.js"></script>
+<script src="footer.js"></script>
+</body>
+</html>
