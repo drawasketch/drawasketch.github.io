@@ -45,31 +45,21 @@
           <div class="footer-col">
             <h3 class="footer-heading">Drawing Tools</h3>
             <ul class="footer-links">
-              <li><a href="#sketch-app">Free Online Drawing</a></li>
-              <li><a href="#sketch-app">Sketchpad Online</a></li>
-              <li><a href="#sketch-app">Pencil Drawing Tool</a></li>
-              <li><a href="#sketch-app">Brush Painter</a></li>
-              <li><a href="#sketch-app">Shape Creator</a></li>
+              <li><a href="/#sketch-app">Free Online Drawing</a></li>
+              <li><a href="/#sketch-app">Sketchpad Online</a></li>
+              <li><a href="/#sketch-app">Pencil Drawing Tool</a></li>
+              <li><a href="/#sketch-app">Brush Painter</a></li>
+              <li><a href="/#sketch-app">Shape Creator</a></li>
             </ul>
-          </div>
-          <div class="footer-col">
-            <h3 class="footer-heading">Sketch Guides</h3>
-            <ul class="footer-links">
-              <li><a href="#tutorials">Animal Drawings</a></li>
-              <li><a href="#tutorials">Flower Sketch Tips</a></li>
-              <li><a href="#tutorials">Portrait Drawing</a></li>
-              <li><a href="#tutorials">Landscape Sketching</a></li>
-              <li><a href="#tutorials">Beginner Techniques</a></li>
-            </ul>
-          </div>
+          </div>         
           <div class="footer-col">
             <h3 class="footer-heading">Company</h3>
             <ul class="footer-links">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Sitemap</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
+              <li><a href="/terms">Terms of Service</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/cookies">Sitemap</a></li>
             </ul>
           </div>
         </div>
