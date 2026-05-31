@@ -59,7 +59,7 @@
               <li><a href="/privacy">Privacy Policy</a></li>
               <li><a href="/terms">Terms of Service</a></li>
               <li><a href="/contact">Contact</a></li>
-              <li><a href="/cookies">Sitemap</a></li>
+              <li><a href="/cookies">Cookies Policy</a></li>
             </ul>
           </div>
         </div>
