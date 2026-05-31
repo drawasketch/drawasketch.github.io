@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cookies Policy – Draw A Sketch</title>
+  <meta name="description" content="Cookies Policy for Draw A Sketch. Learn how we utilize small browser data structures to store sketchpad tool settings."/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://drawasketch.github.io/cookies"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ── Reset & Variables ───────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --pink:    #FF6B9D;
+      --purple:  #A855F7;
+      --cyan:    #06B6D4;
+      --white:   #FFFFFF;
+      --off-white: #FFF9F0;
+      --text-dark: #1A1025;
+      --text-mid:  #4A3F5C;
+      --text-light:#7B6B8C;
+      --border:    rgba(168,85,247,0.15);
+      --grad-hero: linear-gradient(135deg,#FFF0FB 0%,#F0E8FF 40%,#E8F8FF 80%,#FFFBF0 100%);
+      --grad-accent: linear-gradient(135deg,#FF6B9D,#A855F7,#06B6D4);
+      --radius-md: 18px;
+      --radius-lg: 28px;
+      --shadow-lg: 0 20px 60px rgba(168,85,247,0.22);
+    }
+
+    body { font-family: 'Nunito', sans-serif; background: var(--off-white); color: var(--text-dark); line-height: 1.7; }
+    #site-header { height: 68px; background: rgba(255,249,240,0.88); border-bottom: 1.5px solid var(--border); }
+    
+    main { padding: 60px clamp(1rem,5vw,3rem); min-height: calc(100vh - 68px); background: var(--grad-hero); }
+    .legal-container { max-width: 800px; margin: 0 auto; background: var(--white); padding: clamp(2rem,6vw,4rem); border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); border: 1.5px solid rgba(168,85,247,0.18); }
+    
+    .section-tag { display: inline-flex; background: rgba(168,85,247,.1); color: var(--purple); border: 1.5px solid rgba(168,85,247,.25); border-radius: 50px; padding: .3rem .9rem; font-weight: 800; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 1rem; }
+    h1 { font-weight: 900; font-size: clamp(2rem,4vw,2.8rem); line-height: 1.2; margin-bottom: 0.5rem; }
+    .gradient-text { background: var(--grad-accent); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .last-updated { font-size: 0.9rem; color: var(--text-light); margin-bottom: 2.5rem; font-weight: 600; }
+    
+    h2 { font-weight: 800; font-size: 1.4rem; color: var(--purple); margin: 2rem 0 0.75rem; }
+    p { color: var(--text-mid); margin-bottom: 1.25rem; font-size: 1.05rem; }
+    ul { list-style-type: none; margin-bottom: 1.25rem; padding-left: 0; }
+    li { position: relative; padding-left: 1.5rem; color: var(--text-mid); margin-bottom: 0.5rem; font-size: 1.05rem; }
+    li::before { content: "🍪"; position: absolute; left: 0; top: 0; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<!-- Header injected by header.js -->
+
+<main id="main-content">
+  <div class="legal-container">
+    <div class="section-tag">Cookies Policy</div>
+    <h1>Cookies &amp; <span class="gradient-text">Local Storage</span> Rules</h1>
+    <div class="last-updated">Last Updated: May 31, 2026</div>
+
+    <p>This Cookies Policy explains how Draw A Sketch uses cookies and modern browser-based storage architectures (like LocalStorage and SessionStorage) to build a smooth drawing app experience.</p>
+
+    <h2>1. What Are Cookies and Local Storage?</h2>
+    <p>Cookies are small tracking text fragments sent to your web browser. LocalStorage and SessionStorage are high-performance data systems built directly into your modern browser frame that allow data properties to remain saved across single tabs or fresh page reloads natively.</p>
+
+    <h2>2. How We Use Browser Storage</h2>
+    <p>Draw A Sketch avoids processing identifying tracking scripts. Instead, we use your internal web storage properties to keep your user setup perfectly streamlined:</p>
+    <ul>
+      <li><strong>Functional Settings:</strong> Storing your recently selected custom brush size configurations, color variables, or preferred active color palettes so they don't reset when you close the tab[cite: 1].</li>
+      <li><strong>App State Safety:</strong> Helping the undo and redo history trackers buffer your canvas changes inside local browser spaces securely[cite: 1].</li>
+    </ul>
+
+    <h2>3. Third-Party Analytical Cookies</h2>
+    <p>We may collaborate with baseline metric scripts (such as Google Analytics or hosting servers) to track aggregated user traffic behavior. These third-party dependencies place cookie data to register things like how long users draw on the app, or what guides are accessed, allowing us to enhance design features over time.</p>
+
+    <h2>4. Managing Your Cookies Selection</h2>
+    <p>You can easily instruct your web browser to delete all cookies or block storage functions entirely via your individual browser's privacy parameters. Keep in mind that disabling canvas storage completely will cause the app to reset your color choice and brush dimensions back to defaults every time you refresh.</p>
+
+  </div>
+</main>
+
+<!-- Footer injected by footer.js -->
+
+<script src="header.js"></script>
+<script src="footer.js"></script>
+</body>
+</html>
