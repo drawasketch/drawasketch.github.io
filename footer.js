@@ -53,7 +53,7 @@
             </ul>
           </div>         
           <div class="footer-col">
-            <h3 class="footer-heading">Company</h3>
+            <h3 class="footer-heading">Pages</h3>
             <ul class="footer-links">
               <li><a href="/about">About Us</a></li>
               <li><a href="/privacy">Privacy Policy</a></li>
